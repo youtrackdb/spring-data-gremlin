@@ -7,7 +7,7 @@
     <name>Spring Data gremlin - Example</name>
 
     <parent>
-        <groupId>com.microsoft.spring.data.gremlin.examples</groupId>
+        <groupId>io.youtrackdb</groupId>
         <artifactId>spring-data-gremlin-examples</artifactId>
         <version>0.0.1.BUILD-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>

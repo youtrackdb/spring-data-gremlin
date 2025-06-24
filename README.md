@@ -78,13 +78,14 @@ This repository only supports Spring Data 2.x.
 
 ### Add the dependency
 `spring-data-gremlin` is published on Maven Central Repository.  
-If you are using Maven, add the following dependency.  
+If you are using Maven, add the following dependency.
 
 ```xml
+
 <dependency>
-    <groupId>com.microsoft.spring.data.gremlin</groupId>
-    <artifactId>spring-data-gremlin</artifactId>
-    <version>2.1.7</version>
+  <groupId>com.jetbrains.spring.data.gremlin</groupId>
+  <artifactId>spring-data-gremlin</artifactId>
+  <version>2.1.7</version>
 </dependency>
 ```
 
