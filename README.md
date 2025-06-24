@@ -1,19 +1,10 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-green.svg) ](https://github.com/Microsoft/spring-data-gremlin/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/Microsoft/spring-data-gremlin.svg?branch=master)](https://travis-ci.org/Microsoft/spring-data-gremlin)
-[![codecov](https://codecov.io/gh/Microsoft/spring-data-gremlin/branch/master/graph/badge.svg)](https://codecov.io/gh/Microsoft/spring-data-gremlin) 
-
-:exclamation::exclamation::exclamation:
-
-We have **deprecated** Spring Data Gremlin. We recommend that you use the TinkerPop driver to [query Cosmos DB with Gremlin API](https://docs.microsoft.com/en-us/azure/cosmos-db/create-graph-gremlin-console) or use [azure-spring-boot-starter-cosmos](https://github.com/Azure/azure-sdk-for-java/tree/master/sdk/spring/azure-spring-boot-starter-cosmos) to query Cosmos DB with Spring Data SQL API. If you would like us to continue supporting Spring Data Gremlin, please tell us how you are using Spring Data Gremlin for Cosmos DB and how important it is to you, by voting on this [issue](https://github.com/Azure/azure-sdk-for-java/issues/24773) with the thumbs up emoji.  
-
-
 
 # Spring Data Gremlin 
 
 **Spring Data Gremlin** provides initial Spring Data support for those databases using Gremlin query language. With annotation oriented programming model, it simplified the mapping to the database entity. It also provides supports for basic and custom query. 
 
-This project works with *any Gremlin-compatible* data store, and also with [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction). Cosmos is a globally-distributed database service that allows developers to work with data using a variety of standard APIs, such as Graph, MongoDB, and SQL. Spring Data Gremlin provides a delightful experience to interact with Azure Cosmos DB Graph API. 
-
+This project works with *any Gremlin-compatible* data store.
 ## Spring Data Version Support
 Version mapping between spring boot and spring-data-gremlin: 
 
